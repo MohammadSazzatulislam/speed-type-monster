@@ -20,6 +20,8 @@ body {
 #question {
   height: 100px;
   display: flex;
+  overflow-wrap: break-word;
+  padding: 30px 40px;
   align-items: center;
   justify-content: center;
   color: white;
@@ -188,6 +190,10 @@ button {
    grid-template-columns:auto ;
    grid-gap: 20px;
   }
+  #question {
+    overflow-wrap: break-word;
+    padding: 50px;
+  }
 
 }
 @media only screen and (max-width: 576px) {
@@ -199,5 +205,9 @@ button {
    grid-template-columns:auto ;
    grid-gap: 20px;
   }
-
+  #question {
+    overflow-wrap: break-word;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
 }
