@@ -41,10 +41,11 @@ body {
   height: 100px;
   display: flex;
   flex-wrap: wrap;
+  overflow: auto;
   align-items: center;
-  padding-left: 5rem;
+  padding: 20px 30px;
   color: white;
-  font-size: 32px;
+  font-size: 27px;
   background-color: #171717;
   border: 2px solid #9dffad;
   border-radius: 15px;
