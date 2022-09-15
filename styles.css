@@ -30,7 +30,6 @@ cursor: pointer;
   padding-right: 1em;
   list-style: none;
   font-size: 1.5em;
-  
 }
 
 .box-container {
@@ -215,11 +214,45 @@ button {
   text-align: center;
   padding: 20px 0px;
 }
-
+@media only screen and (min-width: 1200px) and (max-width : 1400px){
+  .header-title{
+    font-size: 2em;
+   }
+   .list-container ul li {
+    padding-right: 0.5em;
+    list-style: none;
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width : 1200px){
+  .list-container ul {
+    display:none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width : 992px){
+  .box-container {
+    padding: 20px 30px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .list-container ul {
+    display:none;
+    }
+    .header-title{
+      font-size: 2em;
+     }
+  .nav-container{
+    width: auto;
+    margin: 0 auto;
+    padding: 30px 40px;
+  }
+  
+}
 @media only screen and (min-width: 576px) and (max-width : 768px) {
   .box-container {
     padding: 20px 30px;
     width: 100%;
+    margin: 0 auto;
   }
   #histories{
    grid-template-columns:auto ;
@@ -229,12 +262,23 @@ button {
     overflow-wrap: break-word;
     padding: 50px;
   }
-
+  .header-title{
+    font-size: 2em;
+   }
+.nav-container{
+  width: auto;
+  margin: 0 auto;
+  padding: 30px 40px;
+}
+.list-container ul {
+  display:none;
+  }
 }
 @media only screen and (max-width: 576px) {
   .box-container {
     padding: 20px 30px;
     width: 100%;
+    margin: 0 auto;
   }
   #histories{
    grid-template-columns:auto ;
@@ -244,5 +288,28 @@ button {
     overflow-wrap: break-word;
     padding: 10px 20px;
     font-size: 20px;
+  }
+  .header-title{
+    font-size: 1.5em;
+   }
+.nav-container{
+  width: auto;
+  margin: 0 auto;
+  padding: 30px 40px;
+}
+.list-container ul {
+  display:none;
+  }
+  button {
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #171717;
+    border-radius: 5px;
+    border: 1px solid #9dffad;
+    cursor: pointer;
   }
 }
