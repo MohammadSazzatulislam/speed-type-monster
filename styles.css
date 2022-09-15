@@ -10,6 +10,28 @@ body {
   background-position: left top;
   font-family: "Zilla Slab", serif;
 }
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  padding: 40px 0px;
+  width: 70%;
+}
+.header-title{
+ font-size: 3em;
+}
+.list-container ul {
+display: flex;
+cursor: pointer;
+}
+.list-container ul li {
+  padding-right: 1em;
+  list-style: none;
+  font-size: 1.5em;
+  
+}
 
 .box-container {
   width: 70%;
@@ -180,6 +202,18 @@ button {
   width: 100%;
   position: fixed;
   top: 0;
+}
+
+.footer-container{
+ border-top: 2px solid white;
+ width: 70%;
+ margin: 0 auto;
+}
+.footer-title{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0px;
 }
 
 @media only screen and (min-width: 576px) and (max-width : 768px) {
