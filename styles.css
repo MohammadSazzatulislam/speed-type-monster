@@ -301,15 +301,9 @@ button {
   display:none;
   }
   button {
-    border: none;
     font-size: 1em;
-    font-weight: bold;
     width: 100px;
     height: 50px;
-    color: white;
-    background-color: #171717;
-    border-radius: 5px;
     border: 1px solid #9dffad;
-    cursor: pointer;
   }
 }
